@@ -6,6 +6,7 @@ body{
     color: white;
     text-align: center;
     font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .item{
@@ -15,6 +16,7 @@ body{
     list-style: none;
     text-align: center;
     line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a{
