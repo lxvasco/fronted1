@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to right, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.item{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
