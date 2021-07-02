@@ -1,9 +1,14 @@
-body{
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
     width: 100vw;
     margin: 0;
 }
 
-.header1{    
+.header1 {
     background-color: #222222;
     font-family: Roboto;
     color: #F3F3F3;
@@ -11,50 +16,331 @@ body{
     height: 20px;
 }
 
-
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     padding: 4px 90px;
     font-size: 10px;
 }
 
-.item{
+.item {
     padding: 4px 10px;
 }
 
-.item i{
+.item i {
     font-size: 10px;
 }
 
-.header2{
-    background-color: #F0A83E;    
+.header2 {
+    background-color: #F0A83E;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 62px;
-    
 }
 
-.header2 img{
+.header2 img {
     width: 166px;
     height: 23px;
     padding: 19px 40px;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: end;
 }
 
-.nav-item{
-    padding:0px 40px;
+.nav-item {
+    padding: 0px 40px;
     font-size: 13px;
     line-height: 15px;
     color: #FFFFFF;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.banner {
+    position: relative;
+    background-image: url(../img/foto.png);
+    background-size: cover;
+    height: calc(100vh - 82px);
+}
+
+.banner div {
+    position: absolute;
+    text-align: center;
+    width: 30vw;
+    top: 35vh;
+    left: 65vw;
+}
+
+.banner h3 {
+    border-radius: 5px;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.banner h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.banner input {
+    width: 141px;
+    height: 49px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products img {
+    padding-top: 20px;
+}
+
+.products h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+.products h5 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.products .cards {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.cards article {
+    text-align: center;
+}
+
+.cards article h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.cards article h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+    padding: 0;
+}
+
+.form {
+    width: 30vw;
+    margin: 80px auto;
+}
+
+.form h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.form form input {
+    background-color: #3C2313;
+    border-radius: 15px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+}
+
+.form div{
+    text-align: center;
+}
+
+.form .button {
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.reset {
+    background-color: #8A8787;
+}
+
+.send {
+    background-color: #F0A83E;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    height: 60px;
+    background-color: #F0A83E;
+    align-items: center;
+    border: none;
+}
+
+.footer1 h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.footer1 ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.footer1 .space {
+    width: 20vw;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    padding-left: 5px;
+}
+
+.footer1 .button {
+    height: 34px;
+    width: 8vw;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5rem;
+    background-color: #3C2313;
+}
+
+.footer2 ul {
+    list-style: none;
+    padding: 20px 0px;
+    gap: 30px;
+}
+
+.footer2 ul li {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.footer2 ul li img {
+    border: 2px solid #786960;
+    background-color: #8A8787;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.footer2 ul li h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.footer2 ul li h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+.footer2 h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #F0A83E;
+}
+
+.footer2 h2 span {
+    color: #FFFFFF
+}
+
+.footer2 h2::before {
+    content: url(../img/Cat.png);
+}
+
+.footer2 h2::after {
+    content: url(../img/Dog.png);
+}
+
+.footer3 {
+    height: 20px;
+    bottom: 0px;
+    background: #222222;
+}
+
+.footer3 h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;    
+    color: #FFFFFF;
+    text-align: center;
+    padding:5px ;
 }
