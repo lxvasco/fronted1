@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 
 .header1 {
@@ -26,6 +27,30 @@
     font-family: Roboto;
     font-size: 40px;
     line-height: 47px;
+}
+
+header nav {
+    height: 40px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header nav ul {
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 
 main {
@@ -111,7 +136,7 @@ main {
     padding: 20px;
 }
 
-.card input {
+.card a {
     width: 50%;
     height: 50px;
     background-color: #00669F;
@@ -120,6 +145,13 @@ main {
     justify-self: flex-end;
     position: relative;
     bottom: 80px;
+}
+
+.card a{    
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
 }
 
 footer {
@@ -140,4 +172,169 @@ footer h5 {
     main {
         gap: 100px;
     }
+}
+
+/*FORMULARIOS*/
+
+form {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form h2 {
+    align-self: flex-start;
+    color: #333333;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    padding: 0px 10px;
+}
+
+form p {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.button, .reset, .register-button {
+    width: 100%;
+    height: 50px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+form h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22;
+    line-height: 28px;
+    text-align: center;
+    color: #00669F;
+}
+
+.register p, .contact p {
+    display: flex;
+    gap: 20px;
+}
+
+.reset {
+    background-color: #888888;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    padding: 0px 20px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+}
+
+.login, .register, .contact {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 139px - 51px);
+}
+
+.login h2 {
+    padding-top: 35px;
+}
+
+/* VER MÁS*/
+
+.seeMore-HQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    /*height: calc(100vh - 139px - 51px);*/
+    background-image: url(../img/bg\ 1.png);
+    background-size: 100% 100%;
+    padding: calc((100vh - 25vw - 139px - 51px)/2);
+}
+
+.seeMore-HQ section {
+    width: 30vw;
+    border: none;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seeMore-HQ i {
+    align-self: flex-start;
+    margin: 20px;
+}
+
+.seeMore-HQ h2 {
+    text-decoration: underline;
+    color: #2C0187;
+    bottom: 70px;
+    font-size: 30px;
+}
+
+.seeMore-HQ p {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.seeMore-HQ div {
+    padding: 5px;
+}
+
+.seeMore-HQ div img {
+    width: 4vw;
+}
+
+.seeMore-HQ a {
+    width: 100%;
+    height: 60px;
+    background-color: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img-HQ {
+    width: 100px;
+    border-radius: 100px;
+    position: absolute; 
+    top:150px;  
 }
